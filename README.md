@@ -5,24 +5,24 @@ With the collapse of large companies such as FTX and Silicon-Valley Bank, our gr
 
 Source: https://www.kaggle.com/datasets/fedesoriano/company-bankruptcy-prediction?resource=download
 
-Problem Statement
+## Problem Statement
 What are the factors that causes a company to go bankrupt and what's the best model to predict whether a company will go bankrupt.
 
-Models Building
+## Models Building
 K-Nearest Neighbors
 Random Forest
 SVM
 XGBoost
 
-Models Evaluation
+## Models Evaluation
 ROC-AUC curve
 SHAP
 
-Conclusion
+## Conclusion
 Random Forest is the best model to predict whether a company will go bankrupt or not, according to both ROC and F1 score metrics.
 The Top 3 determinants of whether a company will go bankrupt is a high borrowing dependency, low EPS and low Net Income to Total Assets
 
-What did we learn
+## What did we learn
 Handling imbalanced datasets using SMOTE
 K-Nearest Neighbors, Random Forest Classifier, SVM, XGBoost
 Concepts on ROC & AUC, and F1 Score
